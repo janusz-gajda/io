@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Exceptions">
+      <UniqueIdentifier>{ab14831e-3919-4bb3-ad23-2ad3c873d832}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\NeuralNetwork">
+      <UniqueIdentifier>{62514eff-a0b0-4204-99b1-151f50e25118}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GeneticAlgorithm">
+      <UniqueIdentifier>{06ea46bb-c566-45e6-b4fb-8af51f9ec2c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Exceptions">
+      <UniqueIdentifier>{cd314d68-01e7-4e1b-90ef-394ddd2029ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\NeuralNetwork">
+      <UniqueIdentifier>{18d0a4ef-2be6-4a41-b0ce-9a77c6d6607d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GeneticAlgorithm">
+      <UniqueIdentifier>{063441fd-3d99-4ddb-8dfb-88641616d77f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ActivationFunction">
+      <UniqueIdentifier>{e3a30d2d-8bc0-4e5c-8f80-52c1755e7e2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ActivationFunction">
+      <UniqueIdentifier>{1b557e12-b03d-466b-98d1-43b578b5a2c0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Exceptions\DifferentSizesOfVectors.h">
+      <Filter>Header Files\Exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Exceptions\WrongMethod.h">
+      <Filter>Header Files\Exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Exceptions\WrongParameterRange.h">
+      <Filter>Header Files\Exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NeuralNetwork\NeuralNet.h">
+      <Filter>Header Files\NeuralNetwork</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NeuralNetwork\Neuron.h">
+      <Filter>Header Files\NeuralNetwork</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GeneticAlgorithm\GeneticAlgorithm.h">
+      <Filter>Header Files\GeneticAlgorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GeneticAlgorithm\Individual.h">
+      <Filter>Header Files\GeneticAlgorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GeneticAlgorithm\Population.h">
+      <Filter>Header Files\GeneticAlgorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GeneticAlgorithm\Settings.h">
+      <Filter>Header Files\GeneticAlgorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Dataset.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LoadingDatasetFunctions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ActivationFunction.h">
+      <Filter>Header Files\ActivationFunction</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Exceptions\DifferentSizesOfVectors.cpp">
+      <Filter>Source Files\Exceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Exceptions\WrongMethod.cpp">
+      <Filter>Source Files\Exceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Exceptions\WrongParameterRange.cpp">
+      <Filter>Source Files\Exceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NeuralNetwork\NeuralNet.cpp">
+      <Filter>Source Files\NeuralNetwork</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NeuralNetwork\Neuron.cpp">
+      <Filter>Source Files\NeuralNetwork</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GeneticAlgorithm\GeneticAlgorithm.cpp">
+      <Filter>Source Files\GeneticAlgorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GeneticAlgorithm\Individual.cpp">
+      <Filter>Source Files\GeneticAlgorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GeneticAlgorithm\Population.cpp">
+      <Filter>Source Files\GeneticAlgorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LoadingDatasetFunctions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ActivationFunction.cpp">
+      <Filter>Source Files\ActivationFunction</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
