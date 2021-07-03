@@ -1,0 +1,2 @@
+#define BASELINE_API __declspec(dllexport)
+#define BASELINE_API __declspec(dllimport)

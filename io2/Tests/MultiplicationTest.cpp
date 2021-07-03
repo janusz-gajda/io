@@ -1,6 +1,6 @@
 #include "pch.h"
 
-class MultiplicationByIntTests : public ::testing::TestWithParam<tuple<Matrix, int, Matrix>> {
+/*class MultiplicationByIntTests : public ::testing::TestWithParam<tuple<Matrix, int, Matrix>> {
 
 };
 TEST_P(MultiplicationByIntTests, CheckMultiplication)
@@ -21,4 +21,4 @@ INSTANTIATE_TEST_CASE_P(MultiplicationByIntTest, MultiplicationByIntTests,
 		make_tuple(Matrix(5, 1.0), -1, Matrix(5, -1.0)),
 		make_tuple(Matrix(2, 1.0), 4, Matrix(2, 4.0)),
 		make_tuple(Matrix(2, 2.0), 2, Matrix(2, 4.0)),
-		make_tuple(Matrix(2, 3.0), 2, Matrix(2, 6.0))));
+		make_tuple(Matrix(2, 3.0), 2, Matrix(2, 6.0))));*/

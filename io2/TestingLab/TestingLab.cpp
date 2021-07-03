@@ -5,15 +5,16 @@ using namespace std;
 
 double initializer(int i, int j)
 {
-	return 2 * i - j / 2.0;
+	//return 2 * i - j / 2.0;
+	return j;
 }
 
 int main()
 {
 	//Matrix A(2, vector<double>({ 0., 1., 3., 2. }));
-	Matrix A(0, 0.);
-	Matrix B(3, 1.);
-	A = A * B;
+	Matrix A(3, initializer);
+	//Matrix B(3, 1.);
+	//A = A * B;
 	A.print();
 	cout << A.rows << "\t" << A.columns << endl;
 }
